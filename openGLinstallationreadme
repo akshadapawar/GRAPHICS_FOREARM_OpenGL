@@ -1,0 +1,16 @@
+I)
+sudo apt-get install build-essential libgl1-mesa-dev
+
+Libraries
+sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
+
+gcc -o cube cube.c -lglut -lGLU
+
+II)
+sudo apt-get install freeglut3 freeglut3-dev mesa-common-dev
+
+
+III)
+apt-get install freeglut3-dev
+
+gcc -o foo foo.c -lglut -lGLU -lGL -lm
